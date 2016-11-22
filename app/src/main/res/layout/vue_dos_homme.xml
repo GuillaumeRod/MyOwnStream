@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dos"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dos_homme" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/groupe_dos"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            tools:context=".Fragments.Dos">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/apex"
+                android:checked="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-35dp"
+                android:layout_marginTop="80dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lobe_sup_droit"
+                android:checked="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-55dp"
+                android:layout_marginTop="-5dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lobe_sup_gauche"
+                android:checked="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="-30dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/champ_moyen_gauche"
+                android:checked="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginTop="30dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/champ_moyen_droit"
+                android:checked="false"
+                android:layout_marginLeft="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-33dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/base_inf_gauche"
+                android:checked="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="40dp"
+                android:buttonTint="#00c8ff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/base_inf_droit"
+                android:checked="false"
+                android:layout_marginLeft="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-35dp"
+                android:buttonTint="#00c8ff" />
+
+    </RadioGroup>
+
+</RelativeLayout>

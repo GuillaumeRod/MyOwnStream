@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dos"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dos_femme" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/groupe_dos"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragments.Dos"
+        android:weightSum="1">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_sup_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-60dp"
+            android:layout_marginTop="100dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_sup_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-35dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_inf_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="50dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_inf_droit"
+            android:checked="false"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-35dp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

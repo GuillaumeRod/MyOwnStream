@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyOwnStetho</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_enregistrement">Enregistrement</string>
+
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_activity_tcp_config">tcp_config</string>
+
+    <string name="valid_insert">Valider</string>
+    <string name="annuler_insert">Annuler</string>
+    <string name="insert_patho_title">Validation de l enregistrement</string>
+    <string name="buttons_description">Description des bouttons</string>
+    <string name="record_time_title">Définition du temps d enregistrement</string>
+
+    <string name="patho_name">Nom de la pathologie</string>
+
+
+
+
+    <string name="lobe_sup_gauche">Lobe supérieur gauche</string>
+    <string name="lobe_sup_droit">Lobe supérieur droit</string>
+    <string name="lobe_inf_gauche">Lobe inférieur gauche</string>
+    <string name="lobe_inf_droit">Lobe inférieur droit</string>
+
+
+    <string name="torse_patient_rd2">En string</string>
+    <string name="torse_patient_rd1">De guerre</string>
+
+</resources>

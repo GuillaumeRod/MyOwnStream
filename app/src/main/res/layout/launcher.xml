@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="11">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:layout_weight="3">
+
+
+        <ImageView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logo_polytech"
+            android:layout_gravity="right|top"
+            android:src="@drawable/logo_polytech"
+            android:layout_weight="1"
+            android:layout_alignBottom="@+id/logo_univ"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="143dp"
+            android:layout_height="match_parent"
+            android:id="@+id/logo_univ"
+            android:layout_weight="1"
+            android:src="@drawable/logo_univ"
+            android:layout_gravity="left|top" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:layout_weight="5">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="3"
+            android:id="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/imageView">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Démarrer la simulation"
+                android:id="@+id/beginSimulation"
+                android:layout_gravity="center_horizontal"
+                android:onClick="launch_simu"
+                android:layout_above="@+id/beginEnregistrement"
+                android:layout_weight="1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enregistrement"
+                android:id="@+id/beginEnregistrement"
+                android:layout_gravity="center_horizontal"
+                android:onClick="launch_enregistrement"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/choixSexe"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:layout_below="@+id/beginEnregistrement">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/homme"
+                    android:checked="false"
+                    android:layout_marginLeft="-50dp"
+                    android:text="Homme"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/femme"
+                    android:checked="false"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="-33dp"
+                    android:text="Femme" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:layout_weight="3">
+
+    <ImageView
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="right|top"
+            android:src="@drawable/logo_chu" />
+
+    </LinearLayout>
+
+</LinearLayout>

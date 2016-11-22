@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/groupe_torse"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragments.Torse"
+        android:gravity="center_horizontal"
+        android:background="@drawable/torse_homme">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_carotidien_gauche"
+            android:checked="false"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_carotidien_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-32dp"
+            android:buttonTint="#fe0100" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/irradiation_foyer_aortique"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="0dp"
+            android:buttonTint="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apex_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginTop="-20dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apex_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="-32dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_sup_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-68dp"
+            android:layout_marginTop="20dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/foyer_aortique"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-42dp"
+            android:layout_marginTop="-32dp"
+            android:buttonTint="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/foyer_pulmonaire"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="-35dp"
+            android:buttonTint="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_sup_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="-32dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_moyen_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-72dp"
+            android:layout_marginTop="50dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_moyen_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-35dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/foyer_tripuscide"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-22dp"
+            android:buttonTint="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/irradiation_mitrale"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="-55dp"
+            android:buttonTint="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/foyer_mitral"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="-5dp"
+            android:buttonTint="#ffffff" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_inf_gauche"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-108dp"
+            android:layout_marginTop="0dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lobe_inf_droit"
+            android:checked="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-30dp"
+            android:buttonTint="#00c8ff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_epigastrique"
+            android:checked="false"
+            android:layout_marginLeft="-5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-8dp"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_aorte_abdo"
+            android:checked="false"
+            android:layout_marginLeft="-5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_iliaque_gauche"
+            android:checked="false"
+            android:layout_marginLeft="-25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_iliaque_droit"
+            android:checked="false"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-33dp"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_femoral_gauche"
+            android:checked="false"
+            android:layout_marginLeft="-70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:buttonTint="#fe0100" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/souffle_femoral_droit"
+            android:checked="false"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp"
+            android:buttonTint="#fe0100" />
+
+    </RadioGroup>
+
+</RelativeLayout>
